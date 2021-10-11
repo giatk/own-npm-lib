@@ -61,14 +61,13 @@ npm publish # đưa package lên server npm
 
 ## Extra: Cập nhật lib lên phiên bản mới hơn
 
-- Sửa code sau đó push lên git.
+- Sửa code sau đó commit code (ko push lên git vẫn ok)
 ```bash
 git add .
 git commit -m "message"
-git push
 ```
 
-- Sử dụng 1 trong 3 lệnh sau để nâng version của package, lưu ý phải push code lên git r mới sài được mấy lệnh này nha:
+- Sử dụng 1 trong 3 lệnh sau để nâng version của package, lưu ý phải commit code r mới sài được mấy lệnh này nha:
 ```bash
 npm version patch # From 0.0.1 to 0.0.2
 npm version minor # From 0.1.0 to 0.2.0
