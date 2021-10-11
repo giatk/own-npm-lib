@@ -2,9 +2,9 @@
 
 project này để thí nghiệm đẩy module tự chế lên npm repository.
 
-1. Tạo một tài khoản npm tại http://npmjs.com
+## 1. Tạo một tài khoản npm tại http://npmjs.com
 
-2. Tạo project mà bạn muốn đẩy lên npm, lấy project này làm ví dụ
+## 2. Tạo project mà bạn muốn đẩy lên npm, lấy project này làm ví dụ
 
 - Tạo folder: `mkdir own-npm-lib`
 
@@ -34,7 +34,7 @@ export const addTwoNumber = (a, b) => a + b;
 
 - OK xong phần chuẩn bị project để đẩy lên npm.
 
-3. Tạo git repository đẩy project vô, ko có git repository thì ko đẩy lên npm đc.
+## 3. Tạo git repository đẩy project vô, ko có git repository thì ko đẩy lên npm đc.
 
 ```bash
 # on root folder
@@ -46,7 +46,7 @@ git branch -M main
 git push -u origin main
 ```
 
-4. Xong khâu chuẩn bị, giờ đến khâu publish lên npm.
+## 4. Xong khâu chuẩn bị, giờ đến khâu publish lên npm.
 
 ```bash
 npm login # đăng nhập tài khoản npm zô
