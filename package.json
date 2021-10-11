@@ -1,6 +1,6 @@
 {
   "name": "own-npm-lib",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "repository": "https://github.com/giatk/own-npm-lib.git",
   "author": "giatkt1598 <giatkt1598@gmail.com>",
