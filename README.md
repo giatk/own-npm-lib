@@ -76,3 +76,7 @@ npm version major # From 1.0.0 to 2.0.0
 ```
 
 - Dùng lệnh `npm publish` để đẩy package lên server.
+
+### Update package phiên bản cục súc:
+
+- Sửa version package trong 2 file package-lock.json và package.json rồi chạy lệnh `npm publish`
