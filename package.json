@@ -1,9 +1,9 @@
 {
   "name": "own-npm-lib",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "https://github.com/giatk/own-npm-lib.git",
   "author": "giatkt1598 <giatkt1598@gmail.com>",
   "license": "MIT",
-  "type: "module"
+  "type": "module"
 }
