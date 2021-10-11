@@ -4,5 +4,6 @@
   "main": "index.js",
   "repository": "https://github.com/giatk/own-npm-lib.git",
   "author": "giatkt1598 <giatkt1598@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type: "module"
 }
