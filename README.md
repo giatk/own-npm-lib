@@ -59,6 +59,22 @@ npm link "name_of_package"
 npm publish # đưa package lên server npm
 ```
 
+## Mở đường dẫn: https://www.npmjs.com/package/<your_package_name> lên xem package lên server chưa.
+
+Nếu lên rồi thì thử tạo một project khác xong install package mới tạo xem chạy ngon ko.
+
+```bash
+npm i own-npm-lib # yarn add own-npm-lib
+```
+
+```js
+// Trong 1 project khác / main.js
+import { addTwoNumber } from "own-npm-lib"
+
+const result = addTwoNumber(5, 3);
+
+console.log(result); //In ra 8.
+```
 ## Extra: Cập nhật lib lên phiên bản mới hơn
 
 - Sửa code sau đó commit code (ko push lên git vẫn ok)
