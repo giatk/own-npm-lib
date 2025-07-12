@@ -1,6 +1,6 @@
 {
   "name": "own-npm-lib",
-  "version": "1.0.14-next.17",
+  "version": "1.0.14-next.18",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/giatk/own-npm-lib.git",
@@ -9,8 +9,11 @@
   "type": "module",
   "private": false,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p tsconfig.json"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "typescript": "^5.8.3"
   }
