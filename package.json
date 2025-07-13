@@ -1,6 +1,6 @@
 {
   "name": "own-npm-lib",
-  "version": "1.0.14-next.28",
+  "version": "1.0.14-next.29",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/giatk/own-npm-lib.git",
